@@ -1,0 +1,7 @@
+olist_transform:
+  outputs:
+    dev:
+      type: duckdb
+      path: '../olist_warehouse.db'
+      threads: 4
+  target: dev
